@@ -1,0 +1,101 @@
+main{
+    background-image:url("../img/bg.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 83vh;
+    width: 100vw;
+}
+.foot{
+    max-height: fit-content;
+}
+.indexMain{
+    display:flex;
+    justify-content:center;
+    align-items: center;
+}
+.data{
+    color: aliceblue;
+    font-size: 4rem;
+}
+.contentSection{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+    justify-items: center;
+    align-items: center;
+}
+.contentMain{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+input{
+    display: block;
+}
+input[type = "text"],input[type = "email"],input[type = "password"]{
+    border-style: solid;
+    background-color: chartreuse;
+    border-width: 2px;
+    border-color: rgb(255, 255, 255);
+    width: 100%;
+    margin-right: 40vh;
+}
+table,tr,th,td{
+    border-style: solid;
+    background-color: chartreuse;
+    border-width: 2px;
+    border-color: rgb(255, 255, 255);
+
+
+}
+th,td{
+    color: rgb(0, 0, 0);
+    padding: 2px 25px;
+
+}
+.contentDiv1, .contentDiv2{
+    margin-left: 40%;
+    margin-top: 20px;
+}
+.loginMain{
+    display: flex;
+    justify-content: center;
+}
+.loginMain>section{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+    justify-items: center;
+    align-items: center;
+}
+.loginText{
+    color: aliceblue;
+}
+input[type = "submit"]{
+    background-color: chartreuse;
+}
+.colorbt,button{
+    background-color: chartreuse;
+    text-decoration: none;
+    color: black;
+}
+.registerMain{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.editform{
+    width: 80%;
+    
+}
+.editcss{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.btnedit{
+    margin-left: 40%;
+    margin-top: 20px;
+}
